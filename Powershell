@@ -1,0 +1,2 @@
+To install a module without admin perms just do
+Install-Module -Name Microsoft.PowerApps.Administration.Powershell -Scope CurrentUser
