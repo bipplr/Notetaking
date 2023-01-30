@@ -1,0 +1,3 @@
+check total number of environments conda env list
+check the active environment -> asterisk against the name of the environment
+activate the new conda environment -> activate <environment_name>
