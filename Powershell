@@ -1,2 +1,5 @@
 To install a module without admin perms just do
 Install-Module -Name Microsoft.PowerApps.Administration.Powershell -Scope CurrentUser
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+after that
+Add-PowerAppsAccount and then sign in from the window
