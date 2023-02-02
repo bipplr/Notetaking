@@ -3,3 +3,9 @@ Use Azure Data Lake Gen 2 connector and the url of the dataflow and connect with
  https://strgkelvel.dfs.core.windows.net/ (file system view)
  
  Select the folder path
+
+Missing data source Icon in PowerApps:
+Upcoming features -> Preview -> Use named columns.
+Retired features -> Relational data.... for Microsoft Dataverse.
+and then in general -> Improve data source experience and MS Dataverse views
+
