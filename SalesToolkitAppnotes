@@ -1,0 +1,8 @@
+Quote search screen -> alternate row coloring by using 
+
+With ( {records: Filter()}, ForAll(Sequence(CountRows(records)),Patch(Last(FirstN(records,Value)), {rowNumber: Value}))
+
+Using the ForAll sequence inside PowerApps I'm patching the rownumber inside the records.
+
+
+Big time saving hack -> using dataverse direct query to import the tables inside power bi and verify the field names
