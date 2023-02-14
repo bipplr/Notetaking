@@ -1,0 +1,16 @@
+a table can be converted into a list by the square brackets inside power query
+so Table[column] is a list ie. columnar data in Power Query
+Fetching a specific row is curly brackets {}
+For example: Table{2} while this is not a list, if you want to define a list from nothing in power querry you can also start doing the following:
+{"a", "b", "c"}
+Fetching a specific record (not records, which means rows) is using both [] and {} at the same time
+For example Table[Column]{2} or Table{2}[Column] both works
+
+Creating a new list 
+= {1,2,3,4,5}
+If you don't put the equal to operator in front of this from blank query, you are only going to get {1,2,3,4,5} written in text,
+not the list itself, because the input source becomes "{1,2,3,4,5}"
+ not {1,2,3,4,5}
+ 
+ now, List.Accumulate function is List.Accumulate(Source, Seed, Accumulator as function)
+ = List.Accumulate(Source,0, (state,current)=> state+current*current )
