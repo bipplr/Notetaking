@@ -9,3 +9,24 @@ Big time saving hack -> using dataverse direct query to import the tables inside
 Even bigger time hack -> looking at the same data inside power query by filtering a quote number
 Quesiton to Kev -> ASM name has changed for quote 1320460444
 Dataverse connection name: orgee143f71.crm11.dynamics.com
+
+
+Need to remove the duplicates in Customer table for Quote Detail_Quote_Number page.
+
+Reference price for each material.
+Quote table -> Reference price? (ZM09 from quotes)
+
+Quote Detail Quote Number page -> Customer <- also needs the addition of address
+
+Address Line 2 needs adding
+
+Actual quantity and site quantity need to be integers.
+
+In Materia/products gallery, del and collected need to be integers and sorted accordingly. No, the sort order of Material gallery is not clear.
+when are we using "Until " & Text(DateValue(ThisItem.Column29),"dd mmm yyyy") and "From " & Text(DateValue(ThisItem.Column50),"dd mmm yyyy")?
+
+Dataverse, can't change columns, need to introduce a new calculated column for number data type. this needs to be
+
+Meters sq value should not be defined as default, it should be empty
+
+Controls are not resettable within a gallery
