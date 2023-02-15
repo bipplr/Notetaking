@@ -29,7 +29,9 @@ Dataverse, can't change columns, need to introduce a new calculated column for n
 
 Meters sq value should not be defined as default, it should be empty
 
-Controls are not resettable within a gallery -> Resetting the gallery itself on page visible does work.
+Controls are not resettable within a gallery -> Resetting the gallery itself on page visible does work -> This didn't work either,
+to make it work, put the gallery's reset property as a variable and set that property to false and true on the OnVisible property of the
+page Set(varResetEverything, true); Set(varResetEverything, false);
 
 
 Testing with quote: 1320460444
