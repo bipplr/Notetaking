@@ -30,3 +30,7 @@ Dataverse, can't change columns, need to introduce a new calculated column for n
 Meters sq value should not be defined as default, it should be empty
 
 Controls are not resettable within a gallery
+
+
+Testing with quote: 1320460444
+Test table name: ST_VBAK_VBAP_Test_New
