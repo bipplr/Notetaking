@@ -51,3 +51,18 @@ What will be the value of collected field? sometimes it's blank, sometimes it's 
 
 Check with Kev if ANGDT and BNDDT has changed for 1320404801. 
 
+Collect(ColMaterial3,{MatName:cmbboxitem.Selected.MAKTG, CurrDelivered:txtinputcurrentpricedel.Text, CurrCollected: txtinputcurrentpricecollect.Text,
+FutureDelivered: txtinputfuturepricedel.Text, FutureCollected: txtinputfuturepricecol.Text, UoM: cmbboxitem.Selected.MEGRU}));
+ForAll(qds_GalMaterial.AllItems, 
+Collect(ColMaterial3,{MatName:Column42, CurrDelivered: Column47, CurrCollected: "",  FutureDelivered: "", FutureCollected: "", UoM: Column43})
+);
+
+
+Datatype of collection mismatching throws an error while defining the collection
+
+ColMaterial currently only has currentdelivered as the numeric value column.
+
+creating groups based on dates on each page
+
+Submitted Details Screens - Add All to the dropdown of choices
+
