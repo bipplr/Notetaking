@@ -29,7 +29,7 @@ Dataverse, can't change columns, need to introduce a new calculated column for n
 
 Meters sq value should not be defined as default, it should be empty
 
-Controls are not resettable within a gallery
+Controls are not resettable within a gallery -> Resetting the gallery itself on page visible does work.
 
 
 Testing with quote: 1320460444
@@ -49,5 +49,5 @@ Filters are as follows: [cr780_column47] <> null and ([cr780_column21] = "ACTIVE
 
 What will be the value of collected field? sometimes it's blank, sometimes it's the same as delivered field (was column 48 till now)
 
-
+Check with Kev if ANGDT and BNDDT has changed for 1320404801. 
 
