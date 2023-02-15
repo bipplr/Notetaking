@@ -39,3 +39,14 @@ New Table name: ST_Quotes
 
 Performance improved a lot
 DO a comparison with the old app to show the pre and post performance to Kev and explain the process
+
+the material table is not loading very fast.
+should I use a lookup joining the quotes table(ST_Quotes) with the materials table (ST_VBAPs) in dataverse for faster performance?
+
+
+Get the sort order of quote materials from Kev
+Filters are as follows: [cr780_column47] <> null and ([cr780_column21] = "ACTIVE") and ([cr780_column45] = "Delivery")
+
+What will be the value of collected field? sometimes it's blank, sometimes it's the same as delivered field.
+
+
