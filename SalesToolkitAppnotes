@@ -34,3 +34,8 @@ Controls are not resettable within a gallery
 
 Testing with quote: 1320460444
 Test table name: ST_VBAK_VBAP_Test_News
+
+New Table name: ST_Quotes
+
+Performance improved a lot
+DO a comparison with the old app to show the pre and post performance to Kev and explain the process
