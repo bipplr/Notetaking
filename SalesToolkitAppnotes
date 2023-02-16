@@ -84,3 +84,5 @@ First load the parent and the child table, then create a lookup to the child tab
 
 Cool thing - you won't be able to delete a dataverse table if it's used in the canvas app (not so cool thing: you won't be able to
 delete it after you remove it from the canvas app either at least until you wait a few minutes).
+
+Loading the tables: ST_Submitted_Quotes and ST_Submitted_Quote_Materials
