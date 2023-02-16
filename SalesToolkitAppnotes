@@ -80,5 +80,5 @@ time.
 (I'm close by)
 
 Now the ST_Submitted_Quotes and ST_Submitted_Quotes_Material I got from Kev, I can try to load it like that.
-
+First load the parent and the child table, then create a lookup to the child table, then truncate the child table and then reload the child table
 
