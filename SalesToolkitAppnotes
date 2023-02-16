@@ -71,3 +71,14 @@ Submitted Details Screens - Add All to the dropdown of choices
 Change all the global variable to local variable
 
 Another question to Kev - how to deal with outlier cases
+
+ST_Quote and ST_Quote_Materials are not related using a relationship because the relationship column that I created 
+does not contain the values of the primary key (quotenumber) of the ST_Quote table.
+So need to reload the table after truncating it using the dataflows at the end of the day so both the Quote and the Quote materials
+are loaded from the same source with the Quotelookup field inside the ST_Quote_materials populated while populating the Quote Number at the same 
+time.
+(I'm close by)
+
+Now the ST_Submitted_Quotes and SST_Submitted_Quotes_Material I got from Kev, I can try to load it like that.
+
+
