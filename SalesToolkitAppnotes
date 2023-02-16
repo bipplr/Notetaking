@@ -87,3 +87,5 @@ delete it after you remove it from the canvas app either at least until you wait
 
 Loading the tables: ST_Submitted_Quotes and ST_Submitted_Quote_Materials
 Creating a lookup column: Submitted_Quote_Lookup in child table related to parent table
+
+IMP: Wasted 2 hours on this, both the parent and the child table must contain the primary key to populate the lookup field in the child table.
