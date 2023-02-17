@@ -119,3 +119,4 @@ authorised date
 Convert date to a long date format in powerapps field form 
 If outside form use the text function to wrap around it and do this: Text(ThisItem.XYZ, "dd mm YYYY")
 Else just change the format to longdate inside the form (chatgpt did not know this)
+Remove the inputtextplaceholder for the date controls
