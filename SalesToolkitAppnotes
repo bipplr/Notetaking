@@ -33,6 +33,9 @@ Controls are not resettable within a gallery -> Resetting the gallery itself on 
 to make it work, put the gallery's reset property as a variable and set that property to false and true on the OnVisible property of the
 page Set(varResetEverything, true); Set(varResetEverything, false);
 
+Gallery doesn't have the reset property, it's the individual controls inside the gallery which do, so you have to put all the controls you want to reset
+as varResetEverything.
+
 
 Testing with quote: 1320460444
 Test table name: ST_VBAK_VBAP_Test_News
@@ -125,4 +128,6 @@ Formula for date time in app:
 Text(ThisItem.RequestDate, ShortDate) & " at " & Text(ThisItem.RequestDate,LongTime)
 
 In the form fields, the default value is where it's at and you need to change the ThisItem property of the default value.
+in the datafield value, the entry must be made as "cr780_requestsalesreplastname" to make it reflect inside the default field.
+
 
