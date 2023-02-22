@@ -130,4 +130,14 @@ Text(ThisItem.RequestDate, ShortDate) & " at " & Text(ThisItem.RequestDate,LongT
 In the form fields, the default value is where it's at and you need to change the ThisItem property of the default value.
 in the datafield value, the entry must be made as "cr780_requestsalesreplastname" to make it reflect inside the default field.
 
+when introducing the app can use things like keeping the font and layout the same, 
+such as using the Lato Light font for the values and the semibold for the column headers
+
+Replaying app testing with running paralley from the existing app.
+great levity to say everything
+powerpoint diagram on dataverse and where the data is maintained and the logic
+
+main thing is the functionality
+
+a secondary presentation on features that we are allowing ASM like approval workflow.
 
