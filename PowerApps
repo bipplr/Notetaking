@@ -9,3 +9,30 @@ Upcoming features -> Preview -> Use named columns.
 Retired features -> Relational data.... for Microsoft Dataverse.
 and then in general -> Improve data source experience and MS Dataverse views
 
+Test for RLS:
+
+Click the settings gear icon on make.powerapps.com 
+Go to Admin Center
+Click on Environments
+Go to Marley Ltd (Production)
+Click on Settings
+
+Underneath users + permissions,
+I have already created the Business Units
+and the Security roles
+and the Users
+
+Click on the Users
+
+Search at the Top right hand search box for my Username
+once user comes up, select it and click on "manage security roles"
+in the Business Unit dropdown, select the BU with the one you want to assign RLS to.
+And assign the new role you have created (basic user - copy) role in it.
+also give service reader
+
+now go one step back to settings
+Users+permissions
+go to security roles and update it to business unit level for a custom entity.
+
+
+
