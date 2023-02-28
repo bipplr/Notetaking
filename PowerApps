@@ -30,6 +30,8 @@ in the Business Unit dropdown, select the BU with the one you want to assign RLS
 And assign the new role you have created (basic user - copy) role in it.
 also give service reader
 
+Click on change business unit before clicking on manage security roles.
+
 now go one step back to settings
 Users+permissions
 go to security roles and update it to business unit level for a custom entity.
