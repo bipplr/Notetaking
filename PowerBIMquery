@@ -14,3 +14,6 @@ not the list itself, because the input source becomes "{1,2,3,4,5}"
  
  now, List.Accumulate function is List.Accumulate(Source, Seed, Accumulator as function)
  = List.Accumulate(Source,0, (state,current)=> state+current*current )
+
+Difference between two dates in power query:-
+Duration.Days([Requested Delivery Date to]-[Confd Date])
