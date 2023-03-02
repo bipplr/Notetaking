@@ -1,0 +1,5 @@
+Power BI Dax
+Cool things power bi.
+Measures can be used as visual slicers so a table can be filtered by a measure by adding it into the visual level filter of the table
+and a manual input table's column can be used to drive it's behavior.
+This is one of the coolest things in power bi.
