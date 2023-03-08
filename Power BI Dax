@@ -3,3 +3,10 @@ Cool things power bi.
 Measures can be used as visual slicers so a table can be filtered by a measure by adding it into the visual level filter of the table
 and a manual input table's column can be used to drive it's behavior.
 This is one of the coolest things in power bi.
+Relationships are important.
+Created calculated table from another table and could see it is not getting impacted from the date filter.
+Created a relationship between this calculated table and 
+the date table (relationship already existed between the date table and the old table) => 
+and it is giving the correct result in terms of the calculations done with the table being filtered in the measure
+(note: the table itself still holds all the date values, however the calculations done now with measures using any of the table
+fields will giving the filtered result due to the relationship.
